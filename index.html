@@ -515,6 +515,7 @@ section.tight{padding-top:20px}
 .frame video,.frame img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:top;background:#f2f4f8}
 .phone{width:min(220px,62%);border-radius:30px;padding:8px;background:var(--ink);box-shadow:0 20px 40px -18px rgba(0,0,0,.6)}
 .phone video{border-radius:22px;width:100%;aspect-ratio:572/900;object-fit:cover;background:#fff}
+.phone img{border-radius:22px;width:100%;aspect-ratio:572/900;object-fit:cover;object-position:top;background:#fff;display:block}
 .pt-media[hidden]{display:none}
 @media (min-width:900px){.ptabs-card{grid-template-columns:1fr 1.15fr}.pt-left{padding:34px 30px}}
 .cmp-tag{position:absolute;top:16px;right:16px}
@@ -1078,7 +1079,7 @@ html:not(.gs) .rv:not(.in){translate:0 30px}
         <div class="frame pt-media" data-m="2" hidden><div class="bar"><i></i><i></i><i></i></div><video class="vid" data-poster="media/v-chat.jpg" src="media/v-chat.mp4" muted loop playsinline preload="none"></video></div>
         <div class="frame pt-media" data-m="3" hidden><div class="bar"><i></i><i></i><i></i></div><video class="vid" data-poster="media/v-test.jpg" src="media/v-test.mp4" muted loop playsinline preload="none"></video></div>
         <div class="frame pt-media" data-m="4" hidden><div class="bar"><i></i><i></i><i></i></div><video class="vid" data-poster="media/v-guide.webp" src="media/v-guide.mp4" muted loop playsinline preload="none"></video></div>
-        <div class="phone pt-media" data-m="5" hidden><video class="vid" data-poster="media/v-mobile.jpg" src="media/v-mobile.mp4" muted loop playsinline preload="none"></video></div>
+        <div class="phone pt-media" data-m="5" hidden><img src="media/m2.webp" alt="Платформа B1–C1 в приложении Notion на телефоне" loading="lazy"></div>
       </div>
     </div>
     <div class="stats" style="margin-top:22px">
@@ -1093,15 +1094,18 @@ html:not(.gs) .rv:not(.in){translate:0 30px}
 <section>
   <div class="wrap">
     <div class="headrow">
-      <div><h2 class="mega">Что ещё <span class="b">внутри</span></h2><p class="lede">Листай вправо. Это скриншоты, а не обещания.</p></div>
+      <div><h2 class="mega">Вот как это выглядит <span class="b">в Notion</span></h2><p class="lede">Листай вправо. Это скриншоты платформы, а не обещания.</p></div>
       <div class="arrows"><button type="button" data-sh="-1" aria-label="Назад"><svg class="ic"><use href="#i-arrow-left"/></svg></button><button type="button" data-sh="1" aria-label="Вперёд"><svg class="ic"><use href="#i-arrow-right"/></svg></button></div>
     </div>
     <div class="shots" id="shots">
-      <div class="card shot"><div class="im"><img src="media/p6-tracker.webp" alt="Трекер прогресса" loading="lazy"></div><b>Трекер прогресса</b><span>Ставишь цель, отмечаешь уроки, видишь серию.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
-      <div class="card shot"><div class="im"><img src="media/p5-builder.webp" alt="Сборщик предложений" loading="lazy"></div><b>Сборщик фраз</b><span>Собираешь предложение из слов. Проверка сразу.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
-      <div class="card shot"><div class="im"><img src="media/p4-words.webp" alt="Слова с озвучкой" loading="lazy"></div><b>Слова с озвучкой</b><span>Карточки с иконками. Кнопка «слушать» у каждой.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
-      <div class="card shot"><div class="im"><img src="media/p8-situations.webp" alt="Ситуации из жизни" loading="lazy"></div><b>46 ситуаций</b><span>Больница, банк, JobCenter, детский сад, почта.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
-      <div class="card shot"><div class="im"><img src="media/p1-home.webp" alt="Главная платформы" loading="lazy"></div><b>Главная в Notion</b><span>Навигация, таймер фокуса, заметки, ресурсы.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-home.webp" alt="Главная A0–A2 в Notion" loading="lazy"></div><b>Главная</b><span>Навигация, таймер фокуса, заметки и подборка: фильмы, ютуб, подкасты, книги.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-verbs.webp" alt="Раздел «Глаголы» в Notion" loading="lazy"></div><b>Глаголы</b><span>Модальные, возвратные, с отделяемыми приставками, sein и haben. Каждый со своим гайдом.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-progress.webp" alt="Таблица прогресса по темам" loading="lazy"></div><b>Прогресс по темам</b><span>Отмечаешь пройденное, видишь уровень темы и свои заметки.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-habits.webp" alt="Трекеры привычек" loading="lazy"></div><b>Трекеры</b><span>Чтение, слушание, разговор, письмо. Пропущенный день видно сразу.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-srs.webp" alt="Интервальное повторение слов" loading="lazy"></div><b>Повторение слов</b><span>Карточки по уровням от A1 до C1. Скрыл перевод, вспомнил, отметил.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-hospital.webp" alt="Новая лексика: больница и покупки" loading="lazy"></div><b>Ситуации из жизни</b><span>Терапевт, аптека, звонок в скорую, касса, возврат товара.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-work.webp" alt="Сценарии «Работа»" loading="lazy"></div><b>Работа</b><span>Поиск работы, резюме, собеседование, больничный, конфликт с коллегой.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
+      <div class="card shot"><div class="im"><img src="media/n-a0-exams.webp" alt="Раздел «Экзамены»" loading="lazy"></div><b>Экзамены</b><span>Goethe-Zertifikat от A1 до C1, типичные ошибки и как готовиться.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
       <div class="card shot"><div class="im"><img src="media/m1.webp" alt="Платформа на телефоне" loading="lazy"></div><b>Работает офлайн</b><span>Приложение Notion на телефоне. Метро без связи не помеха.</span><a href="https://app.lava.top/801303618?tabId=products&amp;sort=published" target="_blank" rel="noopener">Перейти</a></div>
     </div>
   </div>
@@ -1721,7 +1725,7 @@ function verbenInit(){
       ['Новелла','Рабочий день на немецком. Выбираешь реплики, Stella реагирует. Можно ошибаться: никто не видит.',['Сценарии с работы и из жизни','Каждая реплика с озвучкой','Словарь рядом, если застрял']],
       ['Гайд + практика','Сначала объяснение, потом сразу практика. Не через неделю, а в том же окне.',['Объяснение как на канале','Видео и упражнения','Свои ответы с подробным разбором']],
       ['Интерактив','Гайды с анимацией и озвучкой. Как этот, про 50 глаголов. Только их больше трёхсот.',['Анимации вместо таблиц','Квиз в конце каждой темы','Немецкая озвучка по клику']],
-      ['Телефон','Пять минут в очереди это уже один гайд. Всё работает на телефоне.',['Тренажёр артиклей DerDieDas','Карточки слов с иконками','Удобно одной рукой']]
+      ['Телефон','Пять минут в очереди это уже один гайд. Вся платформа открывается в приложении Notion.',['Гайды, слова и трекеры в одном приложении','Работает офлайн, без связи в метро','Удобно одной рукой']]
     ];
     var medias = $$('.pt-media');
     function set(i){

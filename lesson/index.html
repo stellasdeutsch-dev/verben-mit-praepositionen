@@ -515,6 +515,7 @@ section.tight{padding-top:20px}
 .frame video,.frame img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:top;background:#f2f4f8}
 .phone{width:min(220px,62%);border-radius:30px;padding:8px;background:var(--ink);box-shadow:0 20px 40px -18px rgba(0,0,0,.6)}
 .phone video{border-radius:22px;width:100%;aspect-ratio:572/900;object-fit:cover;background:#fff}
+.phone img{border-radius:22px;width:100%;aspect-ratio:572/900;object-fit:cover;object-position:top;background:#fff;display:block}
 .pt-media[hidden]{display:none}
 @media (min-width:900px){.ptabs-card{grid-template-columns:1fr 1.15fr}.pt-left{padding:34px 30px}}
 .cmp-tag{position:absolute;top:16px;right:16px}
@@ -1528,7 +1529,7 @@ function verbenInit(){
       ['Новелла','Рабочий день на немецком. Выбираешь реплики, Stella реагирует. Можно ошибаться: никто не видит.',['Сценарии с работы и из жизни','Каждая реплика с озвучкой','Словарь рядом, если застрял']],
       ['Гайд + практика','Сначала объяснение, потом сразу практика. Не через неделю, а в том же окне.',['Объяснение как на канале','Видео и упражнения','Свои ответы с подробным разбором']],
       ['Интерактив','Гайды с анимацией и озвучкой. Как этот, про 50 глаголов. Только их больше трёхсот.',['Анимации вместо таблиц','Квиз в конце каждой темы','Немецкая озвучка по клику']],
-      ['Телефон','Пять минут в очереди это уже один гайд. Всё работает на телефоне.',['Тренажёр артиклей DerDieDas','Карточки слов с иконками','Удобно одной рукой']]
+      ['Телефон','Пять минут в очереди это уже один гайд. Вся платформа открывается в приложении Notion.',['Гайды, слова и трекеры в одном приложении','Работает офлайн, без связи в метро','Удобно одной рукой']]
     ];
     var medias = $$('.pt-media');
     function set(i){
