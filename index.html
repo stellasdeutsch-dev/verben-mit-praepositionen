@@ -543,7 +543,7 @@ section.tight{padding-top:20px}
 .revs svg.path path{fill:none;stroke:var(--or);stroke-width:2.2;stroke-dasharray:7 9;stroke-linecap:round;vector-effect:non-scaling-stroke}
 .rv-card{position:relative;z-index:1;background:#fff;border-radius:16px;padding:8px;box-shadow:var(--shadow);rotate:var(--rot,0deg);max-width:420px}
 .rv-card:nth-child(odd){justify-self:end}
-.rv-card img{border-radius:10px;width:100%}
+.rv-card img{border-radius:10px;width:100%;height:auto}
 @media (min-width:900px){.revs{grid-template-columns:repeat(3,1fr);align-items:start}.rv-card:nth-child(odd){justify-self:auto}.rv-card:nth-child(2){margin-top:40px}}
 .prices{display:grid;gap:14px}
 .pr{padding:22px 18px 20px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px;overflow:hidden}
@@ -1136,6 +1136,8 @@ html:not(.gs) .rv:not(.in){translate:0 30px}
     </div>
     <div class="revs" id="revs">
       <svg class="path" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path id="revPath" d="M10 4 C 60 4, 100 20, 70 40 S 0 60, 30 80 S 90 96, 96 100"/></svg>
+      <div class="rv-card rv" style="--rot:1.2deg"><img src="media/rv-s-nulya-dlya-postupleniya.webp" alt="Отзыв ученицы: начала с нуля в сентябре для поступления и наконец поняла базовые темы" loading="lazy" width="966" height="428"></div>
+      <div class="rv-card rv" style="--rot:-1.4deg"><img src="media/rv-dtz-b1-sertifikat.webp" alt="Сертификат DTZ на уровень B1 и сообщение ученицы: благодаря объяснениям получилось сдать тест" loading="lazy" width="900" height="1065"></div>
       <div class="rv-card rv" style="--rot:-1.6deg"><img src="media/r1.webp" alt="Отзыв ученика" loading="lazy"></div>
       <div class="rv-card rv" style="--rot:1.4deg"><img src="media/r2.webp" alt="Отзыв ученика" loading="lazy"></div>
       <div class="rv-card rv" style="--rot:-1deg"><img src="media/r3.webp" alt="Отзыв ученика" loading="lazy"></div>
